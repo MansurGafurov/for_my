@@ -10,7 +10,7 @@ myList.Add("R");
 myList.Add("O");
 myList.Add("V");
 
-foreach(string index in myList){
-    Console.Write(index);
+foreach(string index in myList) {
+    Console.Write($"{index} ");
 }
 
